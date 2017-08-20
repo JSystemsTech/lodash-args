@@ -10,9 +10,9 @@
 				"label": "Command"
 			}],
 			"rows": [
-				["npm", "npm install lodash-collection-helpers --save"],
-				["bower", "bower install lodash-collection-helpers"],
-				["yarn", "yarn add lodash-collection-helpers"]
+				["npm", "npm install lodash-args --save"],
+				["bower", "bower install lodash-args"],
+				["yarn", "yarn add lodash-args"]
 			]
 		}
 	}, {
@@ -20,13 +20,13 @@
 		"content": [{
 			"type": "code_block",
 			"syntax": "javascript",
-			"code": "var collectionHelpers = require('lodash-collection-helpers');"
+			"code": "var collectionHelpers = require('lodash-args');"
 		}, {
 			"content": "Need an ES5 version?"
 		}, {
 			"type": "code_block",
 			"syntax": "javascript",
-			"code": "var collectionHelpers = require('lodash-collection-helpers/dist/lodash-collection-helpers-es5');"
+			"code": "var collectionHelpers = require('lodash-args/dist/lodash-args-es5');"
 		}, {
 			"type": "table",
 			"columns": [{
@@ -60,7 +60,7 @@
 		}, {
 			"type": "code_block",
 			"syntax": "javascript",
-			"code": "var collectionHelpers = require('lodash-collection-helpers');\nvar _ = require('lodash');\n_.mixin(collectionHelpers.getCollectionHelpers());"
+			"code": "var lodashArgHelpers = require('lodash-args');\nvar _ = require('lodash');\n_.mixin(lodashArgHelpers.getArgHelpers());"
 		}, {
 			"type": "table",
 			"columns": [{
@@ -135,9 +135,6 @@
 		"content": {
 			"type": "badge-list",
 			"list": [{
-				"label": "1.1.0",
-				"value": "Add indexBy and uniqify helpers. Deprecate uuid dependancy"
-			}, {
 				"label": "1.0.0",
 				"value": "Initial release"
 			}]

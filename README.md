@@ -18,19 +18,19 @@
 ## <a name="installation_3"></a>Installation
 | Installation Type | Command |
 | :----: | ---- |
-| npm | npm install lodash-collection-helpers --save |
-| bower | bower install lodash-collection-helpers |
-| yarn | yarn add lodash-collection-helpers |
+| npm | npm install lodash-args --save |
+| bower | bower install lodash-args |
+| yarn | yarn add lodash-args |
 
 ## <a name="usage_4"></a>Usage
 ``` javascript
-var collectionHelpers = require('lodash-collection-helpers');
+var collectionHelpers = require('lodash-args');
 ```
 
 Need an ES5 version?
 
 ``` javascript
-var collectionHelpers = require('lodash-collection-helpers/dist/lodash-collection-helpers-es5');
+var collectionHelpers = require('lodash-args/dist/lodash-args-es5');
 ```
 
 | Available Helpers in the Library |
@@ -59,9 +59,9 @@ Prefer to call these helpers directlly from your projest's lodash reference?
 Simply execute code like this example below and you are all set.
 
 ``` javascript
-var collectionHelpers = require('lodash-collection-helpers');
+var lodashArgHelpers = require('lodash-args');
 var _ = require('lodash');
-_.mixin(collectionHelpers.getCollectionHelpers());
+_.mixin(lodashArgHelpers.getArgHelpers());
 ```
 
 | Integrated Lodash Function |
@@ -138,7 +138,7 @@ A more detailed page for Contributing.
 
 
 ## <a name="release-history_8"></a>Release History
-![1.1.0](https://img.shields.io/badge/1.1.0-Add_indexBy_and_uniqify_helpers._Deprecate_uuid_dependancy-green.svg?style=social)<br>![1.0.0](https://img.shields.io/badge/1.0.0-Initial_release-green.svg?style=social)
+![1.0.0](https://img.shields.io/badge/1.0.0-Initial_release-green.svg?style=social)
 
 [Return to Top](#table-of-contents_2)
 
