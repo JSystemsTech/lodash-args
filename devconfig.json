@@ -47,7 +47,7 @@
 			"coveralls": "^2.13.1",
 			"documentation": "^5.1.0",
 			"gulp": "^3.9.1",
-			"gulp-babel": "^6.1.2",
+			"gulp-babel": "^7.0.0",
 			"gulp-rename": "^1.2.2",
 			"gulp-uglify": "^3.0.0",
 			"gulp-util": "^3.0.8",
